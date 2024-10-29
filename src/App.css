@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto:wght@300;400&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+}
+.tracking{
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(Images/pages-bg.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.tracking .logo{
+    position: absolute;
+    left: 2%;
+    top: 4%;
+}
+
+
+.tracking .logo img{
+    width: 130px;
+}
+
+.tracking h4{
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: .3px;
+}
+
+.trk .forms{
+    width: 90%;
+    margin: auto;
+    padding: 50px 0 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.trk .forms .left{
+    width: 45%;
+}
+
+.trk .forms .left h2{
+    font-size: 40px;
+    color: #09192a;
+    margin-bottom: 37px;
+}
+
+.trk .forms .left input{
+    width: 98%;
+    margin-bottom: 28px;
+    display: block;
+    height: 3.5em;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f8f8f8;
+    padding-left: 2%;
+    border-radius: 3px;
+}
+
+.trk .forms .left button{
+    padding: 12px 27px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: #fc4c02;
+    border-radius: 3px;
+    border: none;
+    display: block;
+    margin-bottom: 22px;
+    cursor: pointer;
+}
+
+.trk .forms .left input::placeholder{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.trk .forms .right{
+    width: 48%;
+}
+
+.trk .forms .right img{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.admin-f{
+    width: 90%;
+    margin: auto;
+    padding: 40px 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 2px 4px 10px 0px hsla(230, 98%, 23%, 0.3);
+
+}
+
+.admin-f h3{
+    color: #09192a;
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.admin-f .admin-c{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.admin-f .admin-c input{
+    width: 46%;
+    padding-left: 2%;
+    outline: none;
+    border: none;
+    height: 45px;
+    border-radius: 3px;
+    background-color: #f8f8f8;
+    margin-bottom: 20px;
+}
+
+.admin-f .admin-c .date{
+    width: 48%;
+}
+
+.admin-f .admin-c .date p{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.admin-f .admin-c .date input{
+    width: 98%;
+}
+
+.admin-f .admin-c button{
+    width: 48%;
+    background-color: #fc4c02;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    height: 45px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+/* tracking info */
+
+.details{
+    width: 90%;
+    margin: auto;
+    padding: 50px 0;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+   
+}
+.details h1{
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+.details .welcome{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+.details .welcome h2{
+    font-size: 22px;
+}
+
+.details .welcome h3{
+    font-size: 20px;
+}
+
+.details .welcome p{
+    font-size: 19px;
+}
+.details .track .th{
+    background-color: #09192a;
+    padding: 10px 0;
+    margin: 20px 0;
+}
+.details .track .th h2{
+    font-size: 19px;
+    padding-left: 10px;
+    color: #fff;
+}
+.details .track .td1{
+    width: 100%;
+}
+
+
+/* Admin view */
+
+.view{
+    width: 90%;
+    margin: auto;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.view .gen{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.view .gen h3{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 36px;
+    color: #09192a;
+}
+
+.view .gen button{
+    padding: 10px 25px;
+    background: #fc4c02;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.view .card1{
+    width: 47%;
+    padding: 20px 0;
+    box-shadow: 2px 4px 10px 0px hsla(230, 98%, 23%, 0.3);
+    margin-bottom: 30px;
+}
+
+.view .card1 .cc{
+    width: 90%;
+    margin: auto;
+
+}
+
+.view .card1 .cc h5{
+    font-size: 19px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+.view .card1 .cc h5 span{
+    color: #09192a;
+    font-size: 16px;
+}
+.view .card1 .cc .btn{
+    width: 100%;
+    /* text-align: end; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.view .card1 .cc .btn button{
+    cursor: pointer;
+    padding: 12px 24px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fc4c02;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+@media screen and (max-width:1000px){
+    .details .welcome{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:900px){
+    .view .card1{
+        width: 100%;
+    }
+    .view .card1 .cc h5{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:700px){
+    .trk .forms{
+        flex-direction: column;
+    }
+
+    .trk .forms .left{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .trk .forms .right{
+        width: 100%;
+    }
+
+    .admin-f .admin-c input{
+        width: 100%;
+    }
+
+    .admin-f .admin-c .date{
+        width: 100%;
+    }
+
+    .trk .forms .left h2{
+        font-size: 23px;
+    }
+
+    .details h1{
+        font-size: 30px;
+    }
+
+    .details .welcome h3{
+        font-size: 18px;
+    }
+
+    .details .welcome h2{
+        font-size: 18px;
+    }
+
+    .details .track .th h2{
+        font-size: 18px;
+    }
+
+    .details .welcome p{
+        font-size: 16px;
+    }
+
+    .view h3 {
+        font-size: 26px;
+    }
+
+    .view .gen h3{
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .view h3 {
+        font-size: 20px;
+    }
+
+    .view .gen h3{
+        font-size: 20px;
+    }
+}
+
+
+
+
+/* upload */
+
